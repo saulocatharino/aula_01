@@ -12,5 +12,4 @@ YYY = np.array(Y)
 YY = YYY.reshape(-1,30,3)
 
 plt.imshow(YY)
-cv2.imwrite("teste.png",YY)
 plt.show()
